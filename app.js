@@ -5,8 +5,9 @@ texto = texto + " #3: ";
 
 debugger;
 var x = 2;
-let cuadrado = x =>{
+let cuadrado = (x) =>{
+    debugger;
     return x*x;
 };
 //
-console.log("El cuadrado es: %d",x);
+console.log("El cuadrado es: %d.", cuadrado(3));
